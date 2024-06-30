@@ -22,6 +22,46 @@ let changednumber = Number(input);
 
 let boolnumber = 1;
 let bool = boolean(boolnumber);
-console.log(bool)
+// console.log(bool)
 
 //here when we change boolnumber 1 => to boolean then it is converted into true
+
+//--------------------------operations-----------------//
+
+//we can change sign by following method
+
+let value =3;
+let negvalue = -value;
+// console.log(negvalue);
+
+// we can add string 
+// console.log("hello"+" world");
+
+//example
+// console.log("1"+2+2);
+// console.log(1+2+'2');
+
+//some example of true
+// console.log(true)//=>true
+// console.log(+true)//=>1
+// console.log(true+)
+
+let a=3;
+let b=++a;
+// console.log(b);
+// console.log(a);
+
+// console.log("2">1)
+// console.log("2"<1) string is converted to a number
+
+
+// console.log(null>0)
+// console.log(null==0) here <,>,>=,<= and == works different cpomparision operators convert null  to 0
+// console.log(null>=0)
+
+// console.log(undefined>0)
+// console.log(undefined==0) 
+// console.log(undefined>=0)
+
+//strict check
+console.log("2"===2)
